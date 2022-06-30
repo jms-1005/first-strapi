@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "channels",
+  "info": {
+    "singularName": "channel",
+    "pluralName": "channels",
+    "displayName": "channel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ChannelName": {
+      "type": "string"
+    },
+    "ChannelLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ChannelDescription": {
+      "type": "text"
+    },
+    "ChannelHomepageURL": {
+      "type": "string"
+    },
+    "ChannelYearFounded": {
+      "type": "date"
+    },
+    "shows": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::show.show",
+      "mappedBy": "channel"
+    }
+  }
+}

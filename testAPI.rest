@@ -1,0 +1,47 @@
+
+GET http://localhost:1337/api/projects
+
+###
+POST http://localhost:1337/api/emailsignups
+Content-Type: application/json
+
+{
+  "data":{
+    "email": "bill@vanarts.com"
+  }
+}
+
+###
+
+GET http://localhost:1337/api/channels?populate=deep,3
+
+###
+GET http://localhost:1337/api/todos
+
+###
+POST http://localhost:1337/api/todos
+Content-Type: application/json
+
+{
+  "data":{
+     "task": "Test task from API test",
+      "isComplete": false,
+      "isDeleted": false
+  }
+}
+
+###
+PUT http://localhost:1337/api/todos/2
+Content-Type: application/json
+
+{
+  "data":{
+     "task": "Test task from API test",
+      "isComplete": true,
+      "isDeleted": false
+  }
+}
+
+###
+DELETE http://localhost:1337/api/todos/3
+

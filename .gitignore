@@ -115,3 +115,5 @@ build
 .strapi-updater.json
 .tmp/data.db
 .tmp/data.db
+.tmp/data.db
+.tmp/data.db

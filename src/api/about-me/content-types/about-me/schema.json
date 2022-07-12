@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "singularName": "about-me",
+    "pluralName": "about-mes",
+    "displayName": "AboutMe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "CellPhone": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Headshot": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    },
+    "BioSummary": {
+      "type": "text"
+    },
+    "FullBio": {
+      "type": "richtext"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "Github": {
+      "type": "string"
+    },
+    "Behance": {
+      "type": "string"
+    },
+    "WebsiteHeroImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

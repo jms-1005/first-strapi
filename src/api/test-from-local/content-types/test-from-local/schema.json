@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_from_locals",
+  "info": {
+    "singularName": "test-from-local",
+    "pluralName": "test-from-locals",
+    "displayName": "TestFromLocal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

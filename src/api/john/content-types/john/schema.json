@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "johns",
+  "info": {
+    "singularName": "john",
+    "pluralName": "johns",
+    "displayName": "john"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
